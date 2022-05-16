@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@font-face {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  src: url('\font\alternative-amazon-font\FiraSansCondensed-SemiBold')format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+.login {
+  background: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 400px;
+}
+.loginLogo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  position: relative;
+  left: -2rem;
+}
+.loginLogo {
+  width: 200px;
+}
+.loginBox {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+.loginForm input {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  outline: none;
+  width: 98%;
+  border: 1px solid grey;
+}
+.loginForm .input:focus {
+  border: 2px solid orange;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.loginBox p {
+  margin-top: 15px;
+  font-size: 12px;
+  justify-content: justify;
+}
+a {
+  cursor: pointer;
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.loginSignInButton {
+  cursor: pointer;
+  background-color: #FF9900;
+  background-image: linear-gradient(62deg, #FF9900 0%, #F7CE68 100%);
+  border-radius: 2px;
+  margin-top: 10px;
+  border-color: #A88734 #9C7E31 #846A29;
+}
+.loginBox Button {
+  cursor: pointer;
+  border-radius: 2px;
+  width: 100%;
+  outline: none;
+  border: 1px solid;
+  border-color: darkgray;
+  margin: top 10px;
+}
+.loginFooter h5 h4 {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+}
+.loginFooter h5 {
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  color: grey;
+}
+.loginFooter h4 {
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+.loginFooter {
+  margin-left: 100px;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 50rem;
+  right: 73rem;
+}
+.register{
+  width: 300px;
+  margin-left: 100px;
+  margin-right:;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  box-shadow: 0px 1px 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid lightgray;
+  padding: 15px;
+}
+.registerForm input{
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  outline: none;
+  width: 98%;
+  border: 1px solid grey;
+}
